@@ -1,0 +1,484 @@
+.hidden {
+    display: none;
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0
+}
+#menuImage {
+    height: 72px;
+    width: 72px;
+}
+#headerMenu>a {
+    font-size: 1.5em;
+    color:#ECECEC;
+}
+.ui.secondary.pointing.menu {
+    margin-left: 0;
+    margin-right: 0;
+    border-bottom: 0px solid rgba(34,36,38,.15);
+}
+#aboutHeader {
+    background-image: url('../images/aboutHeaderStep1V3.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/* #aboutHeaderCloud1 {
+    height: 100%;
+    width: 100%;
+    background-image: url('/src/assets/images/aboutCloud1.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 1px;
+    
+}
+#aboutHeaderCloud2 {
+    background-image: url('/src/assets/images/aboutCloud2V3mini.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 1px;
+    
+} */
+#aboutImgCloud1 {
+    width: 100%;
+    position: absolute;
+    bottom: -1.5em;
+    left: 0px;
+    -webkit-animation-name: bottomClouds; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 2s; /* Safari 4.0 - 8.0 */
+    animation-name: bottomClouds;
+    animation-duration: 2s;
+}
+
+#aboutImgCloudMini1 {
+    width: 30%;
+    position: absolute;
+    top: 5em;
+    left: 5em;
+    -webkit-animation-name: clouds1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: clouds1;
+    animation-duration: 4s;
+}
+
+#aboutImgCloudMini2 {
+    width: 20%;
+    position: absolute;
+    top: 20em;
+    left: 2.5em;
+    -webkit-animation-name: clouds2; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: clouds2;
+    animation-duration: 4s;
+}
+
+#aboutImgCloudMini3 {
+    width: 20%;
+    position: absolute;
+    top: 15em;
+    right: 5em;
+    -webkit-animation-name: clouds3; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: clouds3;
+    animation-duration: 4s;
+}
+
+@font-face {
+    font-family: dryBrush;
+    src: url('../fonts/Dry Brush.ttf');
+}
+@font-face {
+    font-family: brandon-grotesque;
+    src: url('../fonts/brandon_reg.ttf');
+}
+#welcome {
+    font-family: dryBrush;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-size: 50px;
+    color:#eb4d4b;
+ }
+ #welcomeDesc {
+     font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+     color: black;
+     font-size: 25px;
+ }
+.fontSet {
+    font-family: brandon-grotesque,HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes bottomClouds {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+/* Standard syntax */
+@keyframes bottomClouds {
+    from {opacity: 0;}
+    to {opacity: 100;}
+}
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes clouds1 {
+    from {
+        opacity: 0;
+        left: 0em;
+    }
+    to {
+        opacity: 100;
+        left: 5em;
+    }
+}
+
+/* Standard syntax */
+@keyframes clouds1 {
+    from {
+        opacity: 0;
+        left: 0em;
+    }
+    to {
+        opacity: 100;
+        left: 5em;
+    }
+}
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes clouds2 {
+    from {
+        opacity: 0;
+        left: 0em;
+    }
+    to {
+        opacity: 100;
+        left: 2.5em;
+    }
+}
+
+/* Standard syntax */
+@keyframes clouds2 {
+    from {
+        opacity: 0;
+        left: 0em;
+    }
+    to {
+        opacity: 100;
+        left: 2.5em;
+    }
+}
+
+
+
+
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes clouds3 {
+    from {
+        opacity: 0;
+        right: 0em;
+    }
+    to {
+        opacity: 100;
+        right: 5em;
+    }
+}
+
+/* Standard syntax */
+@keyframes clouds3 {
+    from {
+        opacity: 0;
+        right: 0em;
+    }
+    to {
+        opacity: 100;
+        right: 5em;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    #aboutImgCloud1 {
+        width: 100%;
+        position: relative;
+        bottom: -8em;
+        left: 0px;
+    }
+    #aboutHeader {
+        background-image: url('../images/aboutHeaderStep1V3mini.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    
+
+}
+
+@media screen and (max-width: 480px) {
+    #aboutImgCloud1 {
+        width: 100%;
+        position: relative;
+        bottom: -5.5em;
+        left: 0px;
+    }
+    #aboutHeader {
+        background-image: url('../images/aboutHeaderStep1V3mini.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    #aboutImgCloudMini1 {
+        width: 30%;
+        position: absolute;
+        top: 5em;
+        left: 0em;
+    }
+
+    #aboutImgCloudMini2 {
+        width: 20%;
+        position: absolute;
+        top: 10em;
+        left: 0.5em;
+    }
+
+    #aboutImgCloudMini3 {
+        width: 20%;
+        position: absolute;
+        top: 8em;
+        right: 1em;
+    }
+
+
+
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes clouds1 {
+        from {
+            opacity: 0;
+            left: 0em;
+        }
+        to {
+            opacity: 100;
+            left: 0em;
+        }
+    }
+
+    /* Standard syntax */
+    @keyframes clouds1 {
+        from {
+            opacity: 0;
+            left: 0em;
+        }
+        to {
+            opacity: 100;
+            left: 0em;
+        }
+    }
+
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes clouds2 {
+        from {
+            opacity: 0;
+            left: 0em;
+        }
+        to {
+            opacity: 100;
+            left: 0.5em;
+        }
+    }
+
+    /* Standard syntax */
+    @keyframes clouds2 {
+        from {
+            opacity: 0;
+            left: 0em;
+        }
+        to {
+            opacity: 100;
+            left: 0.5em;
+        }
+    }
+
+
+
+
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes clouds3 {
+        from {
+            opacity: 0;
+            right: 0em;
+        }
+        to {
+            opacity: 100;
+            right: 1em;
+        }
+    }
+
+    /* Standard syntax */
+    @keyframes clouds3 {
+        from {
+            opacity: 0;
+            right: 0em;
+        }
+        to {
+            opacity: 100;
+            right: 1em;
+        }
+    }
+
+
+    
+}
+
+@media screen and (max-width: 400px) {
+    #aboutImgCloud1 {
+        width: 100%;
+        position: relative;
+        bottom: -5em;
+        left: 0px;
+    }
+    #aboutHeader {
+        background-image: url('../images/aboutHeaderStep1V3mini.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    #aboutImgCloud1 {
+        width: 100%;
+        position: relative;
+        bottom: -6em;
+        left: 0px;
+    }
+    #aboutHeader {
+        background-image: url('../images/aboutHeaderStep1V3mini.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+    #aboutImgCloudMini1 {
+        width: 30%;
+        position: absolute;
+        top: 5em;
+        left: 0em;
+    }
+
+    #aboutImgCloudMini2 {
+        width: 20%;
+        position: absolute;
+        top: 10em;
+        left: 0.5em;
+    }
+
+    #aboutImgCloudMini3 {
+        width: 20%;
+        position: absolute;
+        top: 8em;
+        right: 1em;
+    }
+
+
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes clouds1 {
+        from {
+            opacity: 0;
+            left: 0em;
+        }
+        to {
+            opacity: 100;
+            left: 0em;
+        }
+    }
+
+    /* Standard syntax */
+    @keyframes clouds1 {
+        from {
+            opacity: 0;
+            left: 0em;
+        }
+        to {
+            opacity: 100;
+            left: 0em;
+        }
+    }
+
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes clouds2 {
+        from {
+            opacity: 0;
+            left: 0em;
+        }
+        to {
+            opacity: 100;
+            left: 0.5em;
+        }
+    }
+
+    /* Standard syntax */
+    @keyframes clouds2 {
+        from {
+            opacity: 0;
+            left: 0em;
+        }
+        to {
+            opacity: 100;
+            left: 0.5em;
+        }
+    }
+
+
+
+
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes clouds3 {
+        from {
+            opacity: 0;
+            right: 0em;
+        }
+        to {
+            opacity: 100;
+            right: 1em;
+        }
+    }
+
+    /* Standard syntax */
+    @keyframes clouds3 {
+        from {
+            opacity: 0;
+            right: 0em;
+        }
+        to {
+            opacity: 100;
+            right: 1em;
+        }
+    }
+    
+}
