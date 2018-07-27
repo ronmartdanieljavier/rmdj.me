@@ -66,9 +66,11 @@
     top: 5em;
     left: 5em;
     -webkit-animation-name: clouds1; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
     animation-name: clouds1;
-    animation-duration: 4s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
 }
 
 #aboutImgCloudMini2 {
@@ -77,9 +79,11 @@
     top: 20em;
     left: 2.5em;
     -webkit-animation-name: clouds2; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 15s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
     animation-name: clouds2;
-    animation-duration: 4s;
+    animation-duration: 15s;
+    animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
 }
 
 #aboutImgCloudMini3 {
@@ -88,9 +92,11 @@
     top: 15em;
     right: 5em;
     -webkit-animation-name: clouds3; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
     animation-name: clouds3;
-    animation-duration: 4s;
+    animation-duration: 7s;
+    animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
 }
 
 @font-face {
@@ -132,81 +138,123 @@
 
 
 
-/* Safari 4.0 - 8.0 */
+/*!* Safari 4.0 - 8.0 *!*/
+/*@-webkit-keyframes clouds1 {*/
+    /*from {*/
+        /*opacity: 0;*/
+        /*left: 0em;*/
+    /*}*/
+    /*to {*/
+        /*opacity: 1;*/
+        /*left: 5em;*/
+    /*}*/
+/*}*/
+
+/*!* Standard syntax *!*/
+/*@keyframes clouds1 {*/
+    /*from {*/
+        /*opacity: 0;*/
+        /*left: 0em;*/
+    /*}*/
+    /*to {*/
+        /*opacity: 1;*/
+        /*left: 5em;*/
+    /*}*/
+/*}*/
+ /*Safari 4.0 - 8.0 */
 @-webkit-keyframes clouds1 {
-    from {
-        opacity: 0;
-        left: 0em;
-    }
-    to {
-        opacity: 100;
-        left: 5em;
-    }
+    0%   {opacity: 0; left: 0em;}
+    50%   {opacity: 1; left: 5em;}
+    100%   {opacity: 0; left: 10em;}
 }
 
 /* Standard syntax */
 @keyframes clouds1 {
-    from {
-        opacity: 0;
-        left: 0em;
-    }
-    to {
-        opacity: 100;
-        left: 5em;
-    }
+    0%   {opacity: 0; left: 0em;}
+    50%   {opacity: 1; left: 5em;}
+    100%   {opacity: 0; left: 10em;}
 }
 
 
+/*!* Safari 4.0 - 8.0 *!*/
+/*@-webkit-keyframes clouds2 {*/
+    /*from {*/
+        /*opacity: 0;*/
+        /*left: 0em;*/
+    /*}*/
+    /*to {*/
+        /*opacity: 100;*/
+        /*left: 2.5em;*/
+    /*}*/
+/*}*/
+
+/*!* Standard syntax *!*/
+/*@keyframes clouds2 {*/
+    /*from {*/
+        /*opacity: 0;*/
+        /*left: 0em;*/
+    /*}*/
+    /*to {*/
+        /*opacity: 100;*/
+        /*left: 2.5em;*/
+    /*}*/
+/*}*/
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes clouds2 {
-    from {
-        opacity: 0;
-        left: 0em;
-    }
-    to {
-        opacity: 100;
-        left: 2.5em;
-    }
+    0%   {opacity: 0; left: 0em;}
+    50%   {opacity: 1; left: 5em;}
+    100%   {opacity: 0; left: 10em;}
 }
 
 /* Standard syntax */
 @keyframes clouds2 {
-    from {
-        opacity: 0;
-        left: 0em;
-    }
-    to {
-        opacity: 100;
-        left: 2.5em;
-    }
+    0%   {opacity: 0; left: 0em;}
+    50%   {opacity: 1; left: 1em;}
+    100%   {opacity: 0; left: 2.5em;}
 }
 
 
+
+
+
+/*!* Safari 4.0 - 8.0 *!*/
+/*@-webkit-keyframes clouds3 {*/
+    /*from {*/
+        /*opacity: 0;*/
+        /*right: 0em;*/
+    /*}*/
+    /*to {*/
+        /*opacity: 100;*/
+        /*right: 5em;*/
+    /*}*/
+/*}*/
+
+/*!* Standard syntax *!*/
+/*@keyframes clouds3 {*/
+    /*from {*/
+        /*opacity: 0;*/
+        /*right: 0em;*/
+    /*}*/
+    /*to {*/
+        /*opacity: 100;*/
+        /*right: 5em;*/
+    /*}*/
+/*}*/
 
 
 
 /* Safari 4.0 - 8.0 */
 @-webkit-keyframes clouds3 {
-    from {
-        opacity: 0;
-        right: 0em;
-    }
-    to {
-        opacity: 100;
-        right: 5em;
-    }
+    0%   {opacity: 0; right: 0em;}
+    50%   {opacity: 1; right: 5em;}
+    100%   {opacity: 0; right: 10em;}
 }
 
 /* Standard syntax */
 @keyframes clouds3 {
-    from {
-        opacity: 0;
-        right: 0em;
-    }
-    to {
-        opacity: 100;
-        right: 5em;
-    }
+    0%   {opacity: 0; right: 0em;}
+    50%   {opacity: 1; right: 5em;}
+    100%   {opacity: 0; right: 10em;}
 }
 
 
