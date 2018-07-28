@@ -51,3 +51,12 @@ html, body {
 .m-b-md {
   margin-bottom: 30px;
 }
+
+
+[data-aos="example-anim2"] {
+  background: red;
+  transition-property: background;
+  &.aos-animate {
+    background: green;
+  }
+}
