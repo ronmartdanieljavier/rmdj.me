@@ -130,6 +130,9 @@
                     <span>About the website</span>
                     This website contains the passions, work experiences, portfolios, educational background, and some personal information's
                     of the website owner.
+                    <br/>
+                    <br/>
+                    This website developed in Laravel + Vue
                 </p>
 
                 <div class="footer-icons">

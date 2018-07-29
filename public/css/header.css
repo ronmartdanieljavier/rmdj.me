@@ -538,3 +538,21 @@
     }
     
 }
+
+
+#blueSky {
+    background-image: url('../images/aboutCloud1v2-180.svg');
+    /*background-attachment: fixed;*/
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #3498db;
+}
+#brownLand {
+    /*background-image: url('../images/aboutGround.svg');*/
+    /*!*background-attachment: fixed;*!*/
+    /*background-position: top;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 100%;*/
+    /*background-color: #795548;*/
+}

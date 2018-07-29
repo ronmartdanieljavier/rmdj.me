@@ -47905,6 +47905,108 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
@@ -47952,7 +48054,8 @@ var render = function() {
           "background-color": "#f9f5ec",
           "padding-top": "10em",
           "padding-bottom": "10em"
-        }
+        },
+        attrs: { id: "skillNAbilities" }
       },
       [
         _c("div", { staticClass: "container" }, [
@@ -47967,6 +48070,17 @@ var render = function() {
           ])
         ])
       ]
+    ),
+    _vm._v(" "),
+    _vm._m(2),
+    _vm._v(" "),
+    _c(
+      "div",
+      {
+        staticClass: "flex-center position-ref full-height",
+        attrs: { id: "brownLand" }
+      },
+      [_vm._v("\n        aa\n    ")]
     )
   ])
 }
@@ -47975,31 +48089,44 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticStyle: { "text-align": "center" } }, [
-      _c("div", { staticClass: "ui text container" }, [
-        _c("span", { staticClass: "ui header", attrs: { id: "welcome" } }, [
-          _vm._v(
-            "\n                    Hi, I'm Ron Mart Daniel Javier\n                "
+    return _c(
+      "div",
+      { staticStyle: { "text-align": "center", "z-index": "1000" } },
+      [
+        _c("div", { staticClass: "ui text container" }, [
+          _c("span", { staticClass: "ui header", attrs: { id: "welcome" } }, [
+            _vm._v(
+              "\n                    Hi, I'm Ron Mart Daniel Javier\n                "
+            )
+          ]),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c(
+            "span",
+            { staticClass: "ui header", attrs: { id: "welcomeDesc" } },
+            [
+              _vm._v(
+                "\n                    a software engineer.\n                "
+              )
+            ]
+          ),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c(
+            "a",
+            {
+              staticClass: "btn btn-primary btn-lg",
+              attrs: { href: "#skillNAbilities" }
+            },
+            [_vm._v("Learn more")]
           )
-        ]),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("span", { staticClass: "ui header", attrs: { id: "welcomeDesc" } }, [
-          _vm._v("\n                    a software engineer.\n                ")
-        ]),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c(
-          "button",
-          { staticClass: "btn btn-primary btn-lg", attrs: { type: "button" } },
-          [_vm._v("Learn more")]
-        )
-      ])
-    ])
+        ])
+      ]
+    )
   },
   function() {
     var _vm = this
@@ -48026,9 +48153,456 @@ var staticRenderFns = [
                   _vm._v(" "),
                   _c("br"),
                   _vm._v(
-                    "\n                                    I never stop learning; I keen to learn more about new technologies\n                                "
+                    "\n                                    I never stop learning; I keen to learn more about new technologies and seek\n                                    new knowledge and experience\n                                "
                   )
-                ])
+                ]),
+                _vm._v(" "),
+                _c(
+                  "a",
+                  {
+                    staticClass: "btn btn-outline-primary btn-lg",
+                    attrs: { href: "#blueSky" }
+                  },
+                  [_vm._v("Skills and Abilities")]
+                )
+              ])
+            ]
+          )
+        ])
+      ]
+    )
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      {
+        staticClass: "flex-center position-ref full-height",
+        attrs: { id: "blueSky" }
+      },
+      [
+        _c("div", { staticClass: "container-fluid row" }, [
+          _c("div", { staticClass: "col" }),
+          _vm._v(" "),
+          _c(
+            "div",
+            { staticClass: "col", attrs: { "data-aos": "fade-down" } },
+            [
+              _c("h1", [_vm._v("Technical Skills and Abilities")]),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "85%",
+                        "background-color": "#f4645f"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "85",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Laravel (8.5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "75%",
+                        "background-color": "#e0353d"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "75",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        AngularJS (7.5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "65%",
+                        "background-color": "#47b784"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "65",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        VueJS (6.5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "50%",
+                        "background-color": "#026e00"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "50",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        NodeJS (5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "85%",
+                        "background-color": "purple"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "85",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        PHP (8.5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "65%",
+                        "background-color": "#3778aa"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "65",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Python (6.5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: { width: "98%" },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "98",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        HTML & CSS (9.8 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "95%",
+                        "background-color": "orange"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "95",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Javascript (9.5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "95%",
+                        "background-color": "#08546a"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "95",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        MySQL (9.5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: { width: "95%", "background-color": "red" },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "85",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        MS SQL (9.5 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "100%",
+                        "background-color": "#2c2c54"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "100",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Flexibility (10 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "100%",
+                        "background-color": "#2c2c54"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "100",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        Learning capabilities (10 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c(
+                "div",
+                { staticClass: "progress", staticStyle: { height: "20px" } },
+                [
+                  _c(
+                    "div",
+                    {
+                      staticClass:
+                        "progress-bar progress-bar-striped progress-bar-animated",
+                      staticStyle: {
+                        width: "100%",
+                        "background-color": "#2c2c54"
+                      },
+                      attrs: {
+                        role: "progressbar",
+                        "aria-valuenow": "100",
+                        "aria-valuemin": "0",
+                        "aria-valuemax": "100"
+                      }
+                    },
+                    [
+                      _vm._v(
+                        "\n                        DON'T GIVE A F**K TO WORK POLITICS (100 out of 10)\n                    "
+                      )
+                    ]
+                  )
+                ]
+              ),
+              _vm._v(" "),
+              _c("br"),
+              _vm._v(" "),
+              _c("div", { staticClass: "text-center" }, [
+                _c("br"),
+                _vm._v(" "),
+                _c(
+                  "button",
+                  {
+                    staticClass: "btn btn-primary btn-lg",
+                    attrs: { type: "button" }
+                  },
+                  [
+                    _vm._v("Learn more "),
+                    _c("i", { staticClass: "fa fa-arrow-right" })
+                  ]
+                )
               ])
             ]
           )
